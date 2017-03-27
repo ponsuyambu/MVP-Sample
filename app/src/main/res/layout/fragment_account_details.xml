@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data class = "BindingAccountDetails">
+
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/lblAccountDetails"
+            android:text="Account Details"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Account Number:"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:id="@+id/lblAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Account Name:"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lblAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Balance"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lblAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</layout>
